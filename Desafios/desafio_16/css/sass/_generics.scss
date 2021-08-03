@@ -1,0 +1,43 @@
+body {
+	display: grid;
+	grid-template-areas:
+		'header'
+		'main'
+		'footer';
+	grid-auto-rows: 50px auto 50px;
+	@include bgColor($blue);
+}
+
+h1 {
+	font-size: 1rem;
+	span {
+		@include color($red);
+		font-size: 1.5rem;
+	}
+}
+h2,
+h3 {
+	text-align: center;
+	text-shadow: 1px 1px 2px $dark-grey;
+}
+h2 {
+	@include color($grey);
+}
+h3 {
+	@include color($red);
+}
+.btn-primary {
+	@include bgColor($red, 1, true);
+	@include color($grey);
+	border-color: $red !important;
+	outline: none !important;
+	box-shadow: 1px 1px 4px $dark-grey;
+	&:focus,
+	&:hover,
+	&:active {
+		@extend .btn-primary;
+	}
+	&:active {
+		box-shadow: none !important;
+	}
+}

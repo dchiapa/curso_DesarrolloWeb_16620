@@ -1,0 +1,41 @@
+header {
+	grid-area: header;
+	.navbar {
+		@media screen and (min-width: 768px) {
+			margin: 0 2rem;
+		}
+	}
+	.navbar-toggler:focus {
+		outline: none;
+	}
+	.navbar-toggler-icon {
+		@include bgColor($grey);
+	}
+	.navbar-toggler-icon {
+		border-radius: 4px;
+	}
+	.navbar-brand,
+	.nav-link {
+		@include color($grey);
+	}
+	.nav-item {
+		@include bgColor($dark-grey, 0.8);
+		border-bottom: 1px solid $grey;
+		.nav-link {
+			text-decoration: underline;
+		}
+		&:hover {
+			@include bgColor($grey);
+			text-transform: uppercase;
+		}
+		&:hover .nav-link {
+			@include color($blue);
+			text-decoration: underline;
+		}
+		@media screen and (min-width: 768px) {
+			@include bgColor(none);
+			border-bottom: none;
+			width: 96px;
+		}
+	}
+}

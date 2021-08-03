@@ -1,0 +1,83 @@
+main {
+	grid-area: main;
+	min-height: 100%;
+}
+
+.secAbout,
+.aboutIntro {
+	@include content($grey);
+	&__image {
+		width: 70%;
+		max-width: 350px;
+		@media screen and (min-width: 576px) {
+			width: 50%;
+		}
+		@media screen and (min-width: 768px) {
+		}
+		max-width: 240px;
+		align-self: center;
+	}
+	&__text {
+		@media screen and (min-width: 768px) {
+			width: 60%;
+			margin-left: 10px;
+		}
+	}
+}
+.aboutIntro__text {
+	margin: 2em;
+}
+.secBlog,
+.blog {
+	&__article {
+		@include content($grey);
+		.btn {
+			margin: 0 auto;
+		}
+		.modal-dialog {
+			width: 70%;
+			margin: 0 auto;
+		}
+	}
+}
+
+.contact {
+	&__title {
+		font-size: 2rem;
+	}
+	&__form {
+		@include content($grey);
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+	&__title {
+		text-align: center;
+	}
+	&__input,
+	&__textarea {
+		display: block;
+		margin: 0.5em auto;
+		width: 100%;
+	}
+	&__textarea {
+		resize: none;
+	}
+	&__label,
+	&__buttons {
+		display: block;
+		margin: 0 auto;
+		width: 90%;
+		@media screen and (min-width: 768px) {
+			max-width: 60%;
+		}
+	}
+	&__buttons {
+		display: flex;
+		justify-content: space-evenly;
+
+		.btn {
+			width: 40%;
+		}
+	}
+}
