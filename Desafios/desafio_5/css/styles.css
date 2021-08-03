@@ -1,0 +1,44 @@
+nav li {
+	display: inline;
+	margin: 5px;
+}
+nav a {
+	color: cadetblue;
+	text-decoration: none;
+}
+h1 {
+	color: blue;
+}
+h2 {
+	color: brown;
+}
+
+nav ul,
+#puntos ul {
+	list-style: none;
+}
+
+thead {
+	color: crimson;
+}
+
+#puntos ol,
+#puntos ul {
+	padding: 0;
+}
+#puntos li {
+	margin: 10px 0;
+}
+
+table,
+td {
+	border: 1px solid #000;
+}
+td {
+	text-align: center;
+	width: 150px;
+}
+
+article img {
+	width: 250px;
+}
