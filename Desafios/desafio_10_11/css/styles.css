@@ -1,0 +1,245 @@
+/*----- ESTILOS GENERALES ----- */
+/* ----- FONTS ----- */
+
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&family=Roboto:wght@100;400;700&display=swap');
+
+/* ----- FONTS ----- */
+
+* {
+	box-sizing: border-box;
+	font-family: 'Mate SC', serif;
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: rgb(250, 250, 250);
+}
+main {
+	min-height: calc(100vh - 100px);
+	padding-top: 20px;
+}
+#inicioSobreMi,
+#sobreMi article {
+	display: flex;
+	flex-direction: row-reverse;
+}
+a {
+	color: cadetblue;
+	text-decoration: none;
+}
+
+/* ----- TITLES ----- */
+
+h1,
+h2,
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+h1 {
+	color: cadetblue;
+	font-size: 32px;
+}
+h2 {
+	color: brown;
+	font-size: 27px;
+	margin: 0 0 20px;
+}
+h3 {
+	font-size: 22px;
+}
+.tituloNoCentrado {
+	text-align: left;
+}
+.tituloCentrado {
+	text-align: center;
+}
+
+/* ----- TITLES ----- */
+/* ----- IMAGES ----- */
+
+img {
+	width: 200px;
+}
+
+/* ----- IMAGES ----- */
+/* ----- LIST ----- */
+
+ul li {
+	list-style: none;
+}
+
+/* ----- LIST ----- */
+/* ----- HEADER ----- */
+
+header {
+	font-family: 'Roboto', sans-serif;
+	height: 50px;
+	padding: 15.5px 15.5px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+header > a {
+	color: brown;
+	font-size: 24px;
+}
+nav li {
+	display: inline;
+	margin: 5px;
+}
+
+/*----- HEADER ----- */
+/*----- FOOTER ----- */
+
+footer {
+	font-family: 'Roboto', sans-serif;
+	height: 50px;
+	padding-top: 15.5px;
+}
+footer p {
+	text-align: center;
+}
+
+/*----- FOOTER ----- */
+/* ----- ESTILOS GENERALES -----*/
+
+/*----- INDEX -----*/
+
+section {
+	margin: 10px auto;
+	min-height: 270px;
+	padding: 10px;
+	width: 60%;
+}
+.endSection {
+	border-bottom: 2px solid blueviolet;
+	margin: 10px auto;
+	width: 25%;
+}
+article {
+	margin: 0 0 10px;
+}
+#inicioSobreMi p {
+	margin: 20px 20px 0 0;
+}
+#inicioSobreMi .endSection {
+	margin-top: 50px;
+}
+#inicioBlog article {
+	margin-bottom: 20px;
+}
+#inicioBlog p {
+	margin: 10px 0;
+}
+#inicioBlog a {
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-top: 10px;
+}
+#inicioPuntos ol {
+	margin-left: 22%;
+	width: 80%;
+}
+#inicioPuntos li {
+	margin: 10px 0;
+}
+table,
+td {
+	border: 1px solid #000;
+}
+table {
+	width: 100%;
+}
+thead {
+	color: brown;
+}
+td {
+	text-align: center;
+	width: 25%;
+}
+
+/*----- INDEX -----*/
+/*----- ABOUT -----*/
+
+#sobreMi p {
+	margin: 20px 0;
+}
+
+#sobreMi article p {
+	margin: 20px 20px 0 0;
+}
+
+/*----- ABOUT -----*/
+/*----- BLOG -----*/
+
+#blog article {
+	margin: 40px 0;
+}
+#blog div {
+	margin: 10px 0;
+}
+#blog aside {
+	display: inline;
+	margin-left: 20px;
+}
+.articlePuntos {
+	margin-right: 10px;
+}
+
+/*----- BLOG-----*/
+/*----- CONTACT -----*/
+
+form {
+	border: 2px solid black;
+	margin: 25px auto 10px;
+	padding: 10px 0;
+	width: 50%;
+}
+form > label,
+form > input,
+form > select,
+form > textarea,
+form > div {
+	display: block;
+	margin: 2px auto 10px;
+	padding: 5px;
+	width: 75%;
+}
+form div p {
+	margin: 2px auto 10px;
+}
+form div input {
+	margin-right: 10%;
+}
+form .button {
+	display: inline;
+	width: 100px;
+	margin-left: calc(50% - 200px);
+}
+form .tecnologias {
+	display: inline;
+	width: auto;
+}
+
+/*----- CONTACT -----*/
+/*----- ARTICLES -----*/
+
+#article {
+	margin: 0 auto 20px;
+	width: 60%;
+}
+#article p {
+	margin: 20px 0;
+}
+#article aside {
+	text-align: center;
+}
+#article aside div {
+	display: block;
+}
+.articlePuntos {
+	margin-right: 10px;
+}
+
+/*----- ARTICLES -----*/
