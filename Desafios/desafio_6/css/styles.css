@@ -1,0 +1,100 @@
+/*----- ESTILOS GENERALES ----- */
+
+/* ----- FONTS ----- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+/* ----- FONTS ----- */
+
+/* ----- TITLES ----- */
+h1,
+h2,
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+h1 {
+	color: blue;
+	font-size: 32px;
+	text-align: center;
+}
+h2 {
+	color: brown;
+	font-size: 27px;
+}
+h3 {
+	font-size: 22px;
+}
+.titulo--NoCentrado {
+	text-align: left;
+}
+.titulo--Centrado {
+	text-align: center;
+}
+/* ----- TITLES ----- */
+
+/* ----- IMAGES ----- */
+img {
+	width: 200px;
+}
+/* ----- IMAGES ----- */
+
+/* ----- HEADER ----- */
+header {
+	background-color: aquamarine;
+	font-family: 'Roboto', sans-serif;
+	height: 50px;
+}
+nav ul {
+	list-style: none;
+}
+nav li {
+	display: inline;
+	margin: 5px;
+}
+nav a {
+	color: cadetblue;
+	text-decoration: none;
+}
+/*----- HEADER ----- */
+
+/*----- FOOTER ----- */
+footer {
+	background-color: aquamarine;
+	font-family: 'Roboto', sans-serif;
+	height: 50px;
+}
+/*----- FOOTER ----- */
+
+/* ----- ESTILOS GENERALES -----*/
+
+#puntos ul {
+	list-style: none;
+}
+
+#puntos ol,
+#puntos ul {
+	padding: 0;
+}
+#puntos li {
+	margin: 10px 0;
+}
+
+thead {
+	color: crimson;
+}
+table,
+td {
+	border: 1px solid #000;
+}
+td {
+	text-align: center;
+	width: 150px;
+}
+
+/*----- CONTACT -----*/
+
+form {
+	background-color: lightslategray;
+	width: 50%;
+}
+
+/*----- CONTACT -----*/
