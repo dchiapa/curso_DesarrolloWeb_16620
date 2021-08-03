@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Contacto</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" />
+	</head>
+	<body>
+		<header>
+			<a href="../index.html">DChiapa</a>
+			<nav>
+				<ul>
+					<li><a href="../index.html">Inicio</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="about.html">Sobre Mí</a></li>
+					<li><a href="contact.html">Contacto</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<h1 class="tituloCentrado">Hablemos</h1>
+			<form action="" method="POST">
+				<label for="name">Nombre:</label>
+				<input type="text" name="name" id="name" required />
+				<label for="email">E-Mail:</label>
+				<input
+					type="email"
+					name="email"
+					id="email"
+					required
+					autocomplete="off"
+				/>
+				<div>
+					<p>Tecnologías de interés:</p>
+					<label for="html">HTML</label>
+					<input
+						type="checkbox"
+						name="html"
+						id="html"
+						class="tecnologias"
+						value="html"
+					/>
+					<label for="css">CSS</label>
+					<input
+						type="checkbox"
+						name="css"
+						id="css"
+						class="tecnologias"
+						value="css"
+					/>
+					<label for="javascript">Javascript</label>
+					<input
+						type="checkbox"
+						name="javascript"
+						id="javascript"
+						class="tecnologias"
+						value="javascript"
+					/>
+				</div>
+				<label for="llegada">¿Cómo llegaste al blog?</label>
+				<select name="llegada" id="llegada">
+					<option value="">Elija una opción</option>
+					<option value="recomendacion">
+						Recomendacion de amigo
+					</option>
+					<option value="rrss">Redes sociales</option>
+					<option value="otros">Otros...</option>
+				</select>
+				<label for="mensaje">Mensaje:</label>
+				<textarea name="mensaje" id="mensaje"></textarea>
+				<input class="button" type="submit" value="Enviar" />
+				<input class="button" type="reset" value="Resetear" />
+			</form>
+		</main>
+		<footer>
+			<p>&#169; Diego Chiapa - 2021</p>
+		</footer>
+	</body>
+</html>
