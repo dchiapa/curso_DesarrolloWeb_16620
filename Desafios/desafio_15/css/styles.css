@@ -1,0 +1,122 @@
+/* Paleta de colores*/
+:root {
+	--yellow: rgb(255, 190, 11);
+	--orange: rgb(251, 86, 7);
+	--violet: rgb(131, 56, 236);
+	--red: rgb(255, 0, 0);
+	--blue: rgb(70, 122, 207);
+	--grey: rgb(235, 235, 235);
+	--dark-grey: rgb(50, 50, 50);
+}
+body {
+	background-color: var(--blue);
+}
+
+#inicioSobreMi,
+#inicioBlog article,
+.navbar-toggler-icon {
+	background-color: var(--grey);
+}
+.navbar-toggler-icon {
+	border-radius: 4px;
+}
+.navbar-brand,
+.nav-link {
+	color: var(--grey) !important;
+}
+h2,
+h3,
+footer p {
+	color: var(--red);
+	text-shadow: 1px 1px 2px var(--dark-grey);
+}
+h1 {
+	font-size: 1rem;
+}
+h1 span {
+	color: var(--red);
+	font-size: 1.5rem;
+}
+h2,
+footer p {
+	color: var(--grey);
+	text-shadow: 1px 1px 2px var(--dark-grey);
+}
+.navbar-toggler:focus {
+	outline: none;
+}
+.nav-item {
+	border-bottom: 1px solid var(--grey);
+}
+.nav-item:hover {
+	background-color: var(--grey);
+	text-transform: uppercase;
+}
+.nav-item:hover .nav-link {
+	color: var(--blue) !important;
+}
+.titulo-centrado {
+	text-align: center;
+}
+#inicioSobreMi,
+#inicioBlog article {
+	border-radius: 10px;
+	box-shadow: 0 0 7px 0 var(--dark-grey);
+	margin-top: 2em;
+	margin-bottom: 2em;
+	padding: 1em 1rem;
+}
+#inicioSobreMi img {
+	width: 70%;
+	max-width: 350px;
+}
+#inicioBlog article .btn {
+	margin: 0 auto;
+}
+.btn-primary:focus,
+.btn-primary {
+	background-color: var(--red);
+	border-color: var(--red);
+	box-shadow: 1px 1px 4px var(--dark-grey);
+	color: var(--grey);
+}
+.btn-primary:hover,
+.btn-primary:active {
+	background-color: var(--red) !important;
+	border-color: var(--red) !important;
+	outline: none !important;
+}
+.btn-primary:active {
+	box-shadow: none !important;
+}
+footer {
+	height: 50px;
+}
+.modal-dialog {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+@media screen and (min-width: 576px) {
+	#inicioSobreMi img {
+		width: 50%;
+		max-width: 350px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.navbar {
+		margin: 0 2rem;
+	}
+	.nav-item {
+		border-bottom: none;
+		width: 96px;
+	}
+	#inicioSobreMi img {
+		max-width: 240px;
+		align-self: center;
+	}
+	#inicioSobreMi div {
+		width: 60%;
+		margin-left: 10px;
+	}
+}

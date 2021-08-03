@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Blog</title>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link
+			rel="stylesheet"
+			href="bootstrap/dist/css/bootstrap.min.css"
+		/>
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-expand-md navbar-light p-0">
+				<a class="navbar-brand ml-2" href="index.html">DChiapa</a>
+				<button
+					class="navbar-toggler border-0 p-"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div
+					class="
+						collapse
+						navbar-collapse
+						d-lg-flex
+						justify-content-end
+					"
+					id="navbarSupportedContent"
+				>
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link text-center" href="index.html">
+								Inicio
+							</a>
+						</li>
+						<li class="nav-item text-center">
+							<a class="nav-link" href="#">Blog</a>
+						</li>
+						<li class="nav-item text-center">
+							<a class="nav-link" href="#">Sobre mí</a>
+						</li>
+						<li class="nav-item text-center">
+							<a class="nav-link" href="#">Contacto</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<main class="container">
+			<section
+				id="inicioSobreMi"
+				class="d-flex flex-column flex-md-row"
+			>
+				<img
+					class="
+						rounded
+						d-block
+						img-thumbnail
+						m-top-10
+						mx-auto mx-lg-0
+						me-lg-2
+						p-0
+					"
+					src="media/img_diego_01.jpg"
+					alt="Diego Chiapa"
+				/>
+				<div class="mx-lg-2">
+					<h1>Me llamo <span>Diego Chiapa</span></h1>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Corrupti minus voluptas expedita quod eius quo voluptatem
+						quaerat similique dolores, quos qui saepe placeat magni
+						dolore eos quibusdam non aperiam possimus.
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Corrupti minus voluptas expedita quod eius quo voluptatem
+						quaerat similique dolores, quos qui saepe placeat magni
+						dolore eos quibusdam non aperiam possimus.
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Corrupti minus voluptas expedita quod eius quo voluptatem
+						quaerat similique dolores, quos qui saepe placeat magni
+						dolore eos quibusdam non aperiam possimus.
+					</p>
+				</div>
+			</section>
+			<section id="inicioBlog">
+				<h2 class="titulo-centrado">Blog, los destacados</h2>
+				<article class="d-flex flex-column">
+					<h3 class="titulo-centrado">Artículo 1</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Corrupti minus voluptas expedita quod eius quo voluptatem
+						quaerat similique dolores, quos qui saepe placeat magni
+						dolore eos quibusdam non aperiam possimus.
+					</p>
+					<!-- Button trigger modal -->
+					<button
+						type="button"
+						class="btn btn-primary"
+						data-toggle="modal"
+						data-target="#article1"
+					>
+						Leer más
+					</button>
+
+					<!-- Modal -->
+					<div
+						class="modal fade"
+						id="article1"
+						data-backdrop="static"
+						data-keyboard="false"
+						tabindex="-1"
+						aria-labelledby="staticBackdropLabel"
+						aria-hidden="true"
+					>
+						<div class="modal-dialog modal-dialog-centered">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="staticBackdropLabel">
+										Article 1
+									</h5>
+									<button
+										type="button"
+										class="close"
+										data-dismiss="modal"
+										aria-label="Close"
+									>
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<p>
+										Lorem ipsum dolor sit amet consectetur adipisicing
+										elit. Minima accusantium accusamus veritatis nulla
+										reprehenderit libero quas cupiditate. Commodi
+										consequatur praesentium explicabo aliquid magni
+										molestiae voluptatibus eaque laboriosam,
+										reprehenderit dignissimos laborum!
+									</p>
+								</div>
+								<div class="modal-footer">
+									<button
+										type="button"
+										class="btn btn-secondary"
+										data-dismiss="modal"
+									>
+										Cerrar
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</article>
+				<article class="d-flex flex-column">
+					<h3 class="titulo-centrado">Artículo 2</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Corrupti minus voluptas expedita quod eius quo voluptatem
+						quaerat similique dolores, quos qui saepe placeat magni
+						dolore eos quibusdam non aperiam possimus.
+					</p>
+					<!-- Button trigger modal -->
+					<button
+						type="button"
+						class="btn btn-primary"
+						data-toggle="modal"
+						data-target="#article2"
+					>
+						Leer más
+					</button>
+
+					<!-- Modal -->
+					<div
+						class="modal fade"
+						id="article2"
+						data-backdrop="static"
+						data-keyboard="false"
+						tabindex="-1"
+						aria-labelledby="staticBackdropLabel"
+						aria-hidden="true"
+					>
+						<div class="modal-dialog modal-dialog-centered">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="staticBackdropLabel">
+										Article 2
+									</h5>
+									<button
+										type="button"
+										class="close"
+										data-dismiss="modal"
+										aria-label="Close"
+									>
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<p>
+										Lorem ipsum dolor sit amet consectetur adipisicing
+										elit. Minima accusantium accusamus veritatis nulla
+										reprehenderit libero quas cupiditate. Commodi
+										consequatur praesentium explicabo aliquid magni
+										molestiae voluptatibus eaque laboriosam,
+										reprehenderit dignissimos laborum!
+									</p>
+								</div>
+								<div class="modal-footer">
+									<button
+										type="button"
+										class="btn btn-secondary"
+										data-dismiss="modal"
+									>
+										Cerrar
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</article>
+			</section>
+		</main>
+		<footer
+			class="
+				container-fluid
+				d-flex
+				align-items-center
+				justify-content-center
+				px-0
+			"
+		>
+			<p class="text-center m-0">Diego Chiapa - 2021</p>
+		</footer>
+		<script src="bootstrap/dist/js/jquery-3.5.1.slim.min.js"></script>
+		<script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>
