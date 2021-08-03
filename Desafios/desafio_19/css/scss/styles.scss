@@ -1,0 +1,22 @@
+@import 'vars';
+
+/* for */
+@for $col from 1 through 12 {
+	.miCarousel-#{$col} {
+		width: ($ancho/12) * $col;
+	}
+}
+
+/* map */
+@each $k, $v in $images {
+	.image-#{$k} {
+		width: $v;
+	}
+}
+
+/* each */
+@each $val in $weights {
+	.typeR-#{$val} {
+		font-weight: $val;
+	}
+}
