@@ -1,0 +1,5 @@
+Mejoras SEO II
+
+Desde el Principio del proyecto, se utilizaron distintas etiquetas semanticas, como por ejemplo h1, h2, article, section, header, footer, main.
+
+se optimizaron algunas imagenes.
